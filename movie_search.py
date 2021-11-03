@@ -37,7 +37,7 @@ with open(r"names.txt") as title:
 #  Obtaining information from the given title and storing to a csv file  
 
 for diy in title2:
-    r = requests.get(f"http://www.omdbapi.com/?i=tt3896198&apikey=1ffa42c7&t={str(diy)}")
+    r = requests.get(f"http://www.omdbapi.com/?i=tt3896198&apikey=72bc447a&t={str(diy)}")
     doc = r.json()
     df = pd.DataFrame([doc])
     fields = list(doc.keys())
