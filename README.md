@@ -8,3 +8,6 @@ https://en.wikipedia.org/wiki/2000s_in_film
 
 OMDB API
 http://www.omdbapi.com
+
+For the googleplay dataset
+https://www.kaggle.com/lava18/google-play-store-apps
